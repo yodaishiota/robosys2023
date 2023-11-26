@@ -16,7 +16,7 @@ out=$(echo あ | ./plus_stdin)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
     　
-out=$(echo | ./plus_stdin)
+out=$(echo  | ./plus_stdin)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
