@@ -4,11 +4,14 @@
 ## plusコマンド
 [![test](https://github.com/yodaishiota/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/yodaishiota/robosys2023/actions/workflows/test.yml)
 
-標準入力から読み込んだ数字を足す
+標準入力から読み込んだ数字の合計を算出する。
 
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7～3.10
+
+## 事前準備
+使用する前に任意のディレクトリにこのレポジトリをクローンしてください。
 
 ## テスト環境
 * Ubuntu 20.04
@@ -19,9 +22,8 @@
   seq 10 | ./plus
 ```
 * 出力結果
-```bash
   55
-```
+
 ## 著作権・ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 
