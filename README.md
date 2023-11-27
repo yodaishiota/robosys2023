@@ -14,7 +14,7 @@
 * 使用する前に任意のディレクトリにこのレポジトリをクローンしてください。
 * cdでrobosys2023のディレクトリに移動してください。
 ```
-  git clone https://github.com/Cola0912/RoboSys2022.git
+  git clone git@github.com:yodaishiota/robosys2023.git
 
   cd robosys2023
 ```
