@@ -1,5 +1,5 @@
 #!/bin/bash -xv
-# SPDX-FileCopyrightText: 2023 Yodai Shiota
+# SPDX-FileCopyrightText: 2023 Yodai Shiota shioyan0809@icloud.com
 # SPDX-License-Identifire BSD-3-Clause
 
 ng () {
