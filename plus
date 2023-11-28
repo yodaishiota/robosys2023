@@ -4,10 +4,16 @@
 import sys
 
 ans = 0
+denominator = 0
+avarage = 0
+
 for line in sys.stdin:
+    denominator += 1
     try:
          ans += int(line)
     except:
          ans += float(line)
 
+avarage = ans / denominator
 print(ans)
+print(avarage)
