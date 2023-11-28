@@ -14,9 +14,9 @@
 * 使用する前に任意のディレクトリにこのレポジトリをクローンしてください。
 * cdでrobosys2023のディレクトリに移動してください。
 ```
-  git clone git@github.com:yodaishiota/robosys2023.git
+  $ git clone git@github.com:yodaishiota/robosys2023.git
 
-  cd robosys2023
+  $ cd robosys2023
 ```
 ## テスト環境
 * Ubuntu 20.04
