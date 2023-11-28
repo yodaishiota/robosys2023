@@ -3,15 +3,6 @@
 * 現在含まれているコマンド
   * plus
 
-## plusコマンド
-[![test](https://github.com/yodaishiota/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/yodaishiota/robosys2023/actions/workflows/test.yml)
-
-標準入力から読み込んだ数字の合計と、平均値を算出する。
-
-## 必要なソフトウェア
-* Python
-  * テスト済み: 3.7～3.10
-
 ## 事前準備
 * 使用する前に任意のディレクトリにこのレポジトリをクローンしてください。
 * cdでrobosys2023のディレクトリに移動してください。
@@ -19,8 +10,18 @@
   $ git clone https://github.com/yodaishiota/robosys2023.git
   $ cd robosys2023
 ```
+
 ## テスト環境
 * Ubuntu 20.04
+
+## 必要なソフトウェア
+* Python
+  * テスト済み: 3.7～3.10
+
+## plusコマンド
+[![test](https://github.com/yodaishiota/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/yodaishiota/robosys2023/actions/workflows/test.yml)
+
+標準入力から読み込んだ数字の合計と、平均値を算出する。
 
 ## 使い方
 * サンプルコード
@@ -28,6 +29,7 @@
 $ seq 10 | ./plus
 55 5.5
 ```
+なお、実行結果は合計、平均値の順で表示される。
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
