@@ -15,5 +15,4 @@ for line in sys.stdin:
          ans += float(line)
 
 avarage = ans / denominator
-print(ans)
-print(avarage)
+print(ans,avarage)
